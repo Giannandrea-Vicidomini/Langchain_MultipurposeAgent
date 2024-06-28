@@ -1,4 +1,5 @@
 These are the keys inside the dotenv:
+
 OPENAI_API_KEY='key is on openai'
 
 MODEL_OPENAI =gpt-3.5-turbo
