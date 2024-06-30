@@ -15,3 +15,6 @@ ASTRA_DB_APPLICATION_TOKEN='token is on astra'
 ASTRA_DB_API_ENDPOINT='endpoint is on astra'
 
 VECTORDB_COLLECTION=Sample
+
+IG_USR='instagram username'
+IG_PWD='instagram password'

@@ -2,3 +2,4 @@
 .agent_venv
 .env
 .idea
+user_inputs.txt

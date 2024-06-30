@@ -7,6 +7,7 @@ from langchain.agents import (
     create_react_agent,
 )
 from tools.youtube_tools import search_youtube_tool
+from tools.util_tools import save_user_input
 from langchain import hub
 
 
@@ -16,7 +17,7 @@ _ = load_dotenv(find_dotenv())
 def initialize_agent():
 
     llm = ChatOpenAI(temperature=0.5, model=os.getenv("MODEL_OPENAI"))
-    tools = [search_youtube_tool]
+    tools = [search_youtube_tool,save_user_input]
 
     # prompt = hub.pull("hwchase17/openai-functions-agent") --- NON USARE
 
